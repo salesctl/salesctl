@@ -1,7 +1,7 @@
 import { createReadStream } from "fs";
 import { parse } from "csv-parse";
 import { DB } from "../db/sqlite";
-import { Prospect } from "../types";
+import { Prospect } from "../utils/types";
 import { logger } from "../utils/logger";
 
 interface ImportOptions {

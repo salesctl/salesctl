@@ -1,10 +1,10 @@
 #!/usr/bin/env node
 import { program } from "commander";
 import dotenv from "dotenv";
-import { init } from "./commands/init";
-import { importCsv } from "./commands/import";
-import { start } from "./commands/start";
-import { stats } from "./commands/stats";
+import { init } from "./core/commands/init";
+import { importCsv } from "./core/commands/import";
+import { start } from "./core/commands/start";
+import { stats } from "./core/commands/stats";
 
 dotenv.config();
 

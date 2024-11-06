@@ -2,7 +2,7 @@ import { readFile } from "fs/promises";
 import * as yaml from "yaml";
 import { DB } from "../db/sqlite";
 import { Mailer } from "../mail/sender";
-import { Config, SequenceName, Step } from "../types";
+import { Config, SequenceName, Step } from "../utils/types";
 import { logger } from "../utils/logger";
 
 interface StartOptions {

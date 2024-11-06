@@ -1,6 +1,6 @@
 import { readFile } from "fs/promises";
 import * as yaml from "yaml";
-import { Prospect } from "../types";
+import { Prospect } from "./types";
 
 interface TemplateMetadata {
   subject: string;
